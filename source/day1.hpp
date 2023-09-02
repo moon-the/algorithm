@@ -20,6 +20,14 @@ void ex2(int dad, int son)
 // bai3
 void ex3(int x, int y)
 {
+    y = y * 1000;
+    int d = 0;
+    while (x < y)
+    {
+        x = x * 2;
+        d++;
+    }
+    std::cout << d;
 }
 
 // bai 4
